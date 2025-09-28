@@ -20,13 +20,13 @@ from telethon import events, Button
 
 # Store the start time of the bot
 start_time = time.time()
-auto_reply_enabled = False  # default OFF
+auto_reply_enabled = True  # default OFF
 
  #🔄 Global flag
-auto_react_enabled = False
+auto_react_enabled = True
 
 # Replace this with your actual Telegram user ID
-OWNER_ID = 8076230542
+OWNER_ID = 7337020436
 
 # Store messages per chat_id
 message_cache = defaultdict(dict)
@@ -34,8 +34,8 @@ antidelete_on_groups = set()
 antidelete_on_groups = set()
 
 # 🟨 Step 1: Replace these with your real values
-api_id = 24081964
-api_hash = 'b2f302aefe5684c3fa932b9648e94d5b'
+api_id = 25172723
+api_hash = '141070b219ba05f361ca561c60a972a2'
 
 # 🟩 Step 2: Create the session file
 client = TelegramClient('userbot', api_id, api_hash)
